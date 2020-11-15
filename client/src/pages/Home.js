@@ -67,7 +67,7 @@ class Home extends Component {
                         </Card>
                     </Col>
                 </Row>
-                <Row>
+                {/* <Row>
                     <Col size="md-12">
                         <Card title="Results">
                             {this.state.books.length ? (
@@ -86,7 +86,6 @@ class Home extends Component {
                                                 <button onClick={() =>
                                                 this.handleBookSave(book.id)}
                                                 className="btn btn-primary ml-2">
-
                                                 </button>
                                             )}
                                         )
@@ -95,7 +94,7 @@ class Home extends Component {
                             )}
                         </Card>
                     </Col>
-                </Row>
+                </Row> */}
             </Container>
         )
     }
